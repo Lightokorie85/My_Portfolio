@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexDivs{
+    display: flex;
+    justify-content: space-between;
+}
+.spaceAround{
+    display: flex;
+    justify-content: space-around;
+}
+.spaceEvenly{
+    display: flex;
+    justify-content: center;
+}
+.flexDivs div, .spaceAround div, .spaceEvenly div{
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background: dodgerblue;
+    text-align: center;
+    line-height: 7;
+}
+.h2{
+    text-align: center;
+}

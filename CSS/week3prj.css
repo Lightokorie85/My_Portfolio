@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* parent style */
+.parent{
+    background: rgb(252, 245, 245);
+}
+/* menu style */
+.menu{
+    color: rgb(29, 182, 80);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+/* text style */
+.l1 ul, .l9 ul, .l8 ul, .l7 ul, .l6 ul, .l5 ul{
+    color: rgb(74, 75, 75);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+/* nav style */
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav button{
+    width: 29px;
+    height: 21px;
+    background: transparent;
+    border: 1px solid rgb(109, 109, 116);
+}
+/* image style */
+.Gyimg div img{
+    width: 630px;
+}
+.Gyimg2 div img{
+    width: 630px;
+}
+.Gyimg3 div img{
+    width: 630px;
+}
+.Gyimg, .Gyimg2, .Gyimg3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 0 0;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Btn space*/
+.Btn ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+.ccL button{
+    width: 90px;
+    height: 20px;
+    border: none;
+    background: rgb(46, 119, 68);
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.CCl button{
+    
+    width: 90px;
+    height: 20px;
+    border: none;
+    background: rgb(46, 119, 68);
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.empt{
+    background: #fff;
+    padding-top: 10px;
+}
+/* Catalog-Z container */
+.catalog{
+    background: #9e9b9b;
+    padding-top: 20px;
+}

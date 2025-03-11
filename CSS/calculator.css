@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* calculator style */
+.parent{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: rgb(250, 248, 248);
+}
+.number:focus{
+    transition: .5s ease;
+    background: #fdfcfba9;
+    /* box-shadow: 0 0 4px #c795954d; */
+}
+.operator:focus{
+    transition: .5s ease;
+    background: rgba(194, 155, 230, 0.404);
+}
+.calculatorbutton{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+    background: black;
+    padding: 25px 35px;
+}
+.calculatorbody{
+    display: none;
+}
+.display input{
+    height: 20vh;
+    border: 1px solid #eeb868;
+    background: rgb(128, 126, 126);
+    outline: none;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 4px #c795954d;
+}
+.operator-s{
+    color: #f3500f;
+    background: rgb(185, 171, 131);
+    border: none;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    padding: 10px;
+    border-radius: 20%;
+}
+.operator{
+    padding: 8px;
+    border-radius: 20%;
+    color: #f3500f;
+    background: rgb(185, 171, 131);
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.number{
+    padding: 8px;
+    border-radius: 20%;
+    color: #fdfcfb;
+    background: #d4531f23;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+}
+/* Scientific Styling */
+.scientificButtons{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 40px;
+    row-gap: 30px;
+    background: black;
+    padding: 25px 0;
+    box-shadow: #eeb868;
+}
